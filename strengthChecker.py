@@ -41,9 +41,10 @@ def check_special_words(password, name, dob):
     return False
 
 
+# TODO check the input
 entered_name = input("Please enter your username: ")
 # where dob stands for date of birth (the year)
 entered_dob = input("Please enter your birthyear: ")
-entered_password = "#Mark2000"
+entered_password = input("Please enter your password: ")
 
 check_strength(entered_name, entered_dob, entered_password)
